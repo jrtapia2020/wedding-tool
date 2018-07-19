@@ -28,6 +28,8 @@ def main():
         writer.writeheader()
         writer.writerow({'First Name': first_name, 'Last Name': last_name, 'Response': response, 'Guests': guests})
 
+    print(args.input)
+
 
 if __name__ == '__main__':
     main()
